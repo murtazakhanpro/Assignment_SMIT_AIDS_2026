@@ -1,0 +1,28 @@
+Title
+
+Python Loops Assignment – For Loop & While Loop
+
+Due Date
+
+May 20, 2026, 11:59 PM
+Status
+
+approved
+Description
+
+This assignment is designed to strengthen your understanding of Python loops and logic building concepts. The tasks include practice on:
+
+For Loops
+While Loops
+Nested Loops
+Lists with Loops
+Pattern Printing
+Number & Table Logic
+Instructions:
+
+Complete all 20 questions carefully
+Write clean and readable Python code
+Submit the assignment in .ipynb (Jupyter Notebook) format only
+Each question should be solved in a separate cell
+Make sure your code runs without errors
+Late or incomplete submissions may not be accepted
