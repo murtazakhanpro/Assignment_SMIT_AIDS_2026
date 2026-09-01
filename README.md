@@ -15,9 +15,32 @@
 ![Generative AI](https://img.shields.io/badge/Generative%20AI%20(LLMs)-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Agentic AI](https://img.shields.io/badge/Agentic%20AI-0E75B6?style=for-the-badge&logo=probot&logoColor=white)
 
+![Profile Views](https://komarev.com/ghpvc/?username=murtaza-ali&label=Profile%20Views&color=0e75b6&style=flat)
+
 </div>
 
-Welcome to my **SMIT (Saylani Mass IT Training) AI and Data Science, Batch 2026** assignment repository. This repo documents my learning journey from Python fundamentals and exploratory data analysis to machine learning and deep learning projects.
+Welcome to my **SMIT (Saylani Mass IT Training) AI and Data Science, Batch 2026** learning portfolio. This repository documents my journey from Python fundamentals and data analysis to machine learning, deep learning, MLOps, Generative AI, and Agentic AI.
+
+Yahan assignments, practice notebooks, aur learning projects organized hain. Har project ke README mein us project ka overview, tech stack, techniques, aur practiced skills documented hain.
+
+## Portfolio Snapshot
+
+| Area | What this portfolio demonstrates |
+| --- | --- |
+| Foundations | Python programming, OOP, data structures, statistics, probability, and linear algebra |
+| Data | Cleaning, EDA, visualization, multi-table analysis, and business insights |
+| AI/ML | Regression, classification, feature engineering, imbalance handling, and model tuning |
+| Deep Learning | Neural networks, TensorFlow/Keras workflows, and fraud/performance prediction |
+| Engineering | Reproducible notebooks, Git-based documentation, pipelines, deployment, and monitoring concepts |
+| Next Frontier | Big data, cloud, LLM applications, RAG, tool calling, and AI agent workflows |
+
+## About This Repository
+
+- Course assignments and hands-on practice work
+- Practical data science, machine learning, and deep learning projects
+- Business analytics and fraud-detection case studies
+- A structured record of progress throughout the SMIT AIDS 2026 course
+- Assignment-wise documentation designed for easy review
 
 ## Course Details
 
@@ -176,7 +199,6 @@ This repository follows a progressive AI and Data Science curriculum:
 
 ## Repository Notes
 
-- `About.md` contains the extended repository profile and overall stack.
 - Each assignment has a customized `README.md` with its tools, techniques, and skills.
 - [`Coding_gym/README.md`](./Coding_gym/README.md) documents the additional practice notebooks outside the numbered assignments.
 - File names are preserved as submitted during coursework.
