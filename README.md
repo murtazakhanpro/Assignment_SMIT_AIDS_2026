@@ -27,20 +27,20 @@ Welcome to my **SMIT (Saylani Mass IT Training) AI and Data Science, Batch 2026*
 
 | Assignment | Focus | Documentation |
 | --- | --- | --- |
-| 1 | Python Fundamentals | [Open project guide](./Assignment_1%20%28python_fundamentals%29/project_about.md) |
-| 2 | Python Loops | [Open project guide](./Assignment_2%20%28python_loops_Assignment%29/project_about.md) |
-| 3 | Python OOP | [Open project guide](./Assignment_3%20%28python_OOP%29/project_about.md) |
-| 4 | Movie Dataset EDA | [Open project guide](./Assignment_4%28EDA%29/project_about.md) |
-| 5 | EDA: Loan, Hotel, and Adult Datasets | [Open project guide](./Assignment_5%28EDA%29/project_about.md) |
-| 6 | Customer, Product, and Engagement Analytics | [Open project guide](./Assignment_6%28NLP%29/project_about.md) |
-| 7A | Student Performance Regression | [Open project guide](./Assignment_7%20A%20%28machine_learning_regression_prediction%29/project_about.md) |
-| 7B | Housing Price Regression | [Open project guide](./Assignment_7%20B%20%28machine_learning_regression/project_about.md) |
-| 8A | California Housing Regression | [Open project guide](./Assignment_8a%28Machine_learning_Classification_Regression%29/project_about.md) |
-| 8B | Heart Failure Classification | [Open project guide](./Assignment_8b%28Machine_learning_Classic_regression%29/project_about.md) |
-| 8C | Ten-Year CHD Risk Classification | [Open project guide](./Assignment_8C_machineLearning/project_about.md) |
-| 9 | Customer Fraud Detection and Model Comparison | [Open project guide](./Assignment_9_%28multiple%20ML%20model%29/project_about.md) |
-| 10A | Student Performance with Deep Learning | [Open project guide](./Assignment_10a%28deep_learning_student_performance%29/project_about.md) |
-| 10B | Credit Card Fraud Detection with ANN | [Open project guide](./Assignment_10b%28deep_learning%29_creditCard_fraud_ANN/project_about.md) |
+| 1 | Python Fundamentals | [Open README](./Assignment_1%20%28python_fundamentals%29/README.md) |
+| 2 | Python Loops | [Open README](./Assignment_2%20%28python_loops_Assignment%29/README.md) |
+| 3 | Python OOP | [Open README](./Assignment_3%20%28python_OOP%29/README.md) |
+| 4 | Movie Dataset EDA | [Open README](./Assignment_4%28EDA%29/README.md) |
+| 5 | EDA: Loan, Hotel, and Adult Datasets | [Open README](./Assignment_5%28EDA%29/README.md) |
+| 6 | Customer, Product, and Engagement Analytics | [Open README](./Assignment_6%28NLP%29/README.md) |
+| 7A | Student Performance Regression | [Open README](./Assignment_7%20A%20%28machine_learning_regression_prediction%29/README.md) |
+| 7B | Housing Price Regression | [Open README](./Assignment_7%20B%20%28machine_learning_regression/README.md) |
+| 8A | California Housing Regression | [Open README](./Assignment_8a%28Machine_learning_Classification_Regression%29/README.md) |
+| 8B | Heart Failure Classification | [Open README](./Assignment_8b%28Machine_learning_Classic_regression%29/README.md) |
+| 8C | Ten-Year CHD Risk Classification | [Open README](./Assignment_8C_machineLearning/README.md) |
+| 9 | Customer Fraud Detection and Model Comparison | [Open README](./Assignment_9_%28multiple%20ML%20model%29/README.md) |
+| 10A | Student Performance with Deep Learning | [Open README](./Assignment_10a%28deep_learning_student_performance%29/README.md) |
+| 10B | Credit Card Fraud Detection with ANN | [Open README](./Assignment_10b%28deep_learning%29_creditCard_fraud_ANN/README.md) |
 
 ## Technology Stack
 
@@ -68,7 +68,7 @@ The repository also includes SciPy, Plotly, PyCaret, imbalanced-learn, computer-
    cd SMIT-Assignments-AIDS-2026
    ```
 
-2. Open any assignment folder and read its `project_about.md` file first.
+2. Open any assignment folder and read its `README.md` file first.
 3. Launch the relevant notebook with Jupyter:
 
    ```bash
@@ -89,8 +89,8 @@ The repository also includes SciPy, Plotly, PyCaret, imbalanced-learn, computer-
 ## Repository Notes
 
 - `About.md` contains the extended repository profile and overall stack.
-- Each assignment has a customized `project_about.md` with its tools, techniques, and skills.
-- [`Coding_gym/project_about.md`](./Coding_gym/project_about.md) documents the additional practice notebooks outside the numbered assignments.
+- Each assignment has a customized `README.md` with its tools, techniques, and skills.
+- [`Coding_gym/README.md`](./Coding_gym/README.md) documents the additional practice notebooks outside the numbered assignments.
 - File names are preserved as submitted during coursework.
 
 ## Feedback
