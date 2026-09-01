@@ -44,20 +44,83 @@ Welcome to my **SMIT (Saylani Mass IT Training) AI and Data Science, Batch 2026*
 
 ## Technology Stack
 
-<p align="center">
+The stack below combines technologies already used in the assignments with tools covered in the AI and Data Science curriculum.
+
+### Programming and Development
+
+<p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+</p>
+
+### Data Analytics, Statistics, and Visualization
+
+<p>
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/SciPy-0C55A5?style=flat-square&logo=scipy&logoColor=white" alt="SciPy" />
   <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=matplotlib&logoColor=white" alt="Matplotlib" />
   <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logo=python&logoColor=white" alt="Seaborn" />
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly" />
+  <img src="https://img.shields.io/badge/Statsmodels-4051B5?style=flat-square&logo=python&logoColor=white" alt="Statsmodels" />
+</p>
+
+### Machine Learning
+
+<p>
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/XGBoost-189FDD?style=flat-square&logo=xgboost&logoColor=white" alt="XGBoost" />
+  <img src="https://img.shields.io/badge/PyCaret-2496ED?style=flat-square&logo=python&logoColor=white" alt="PyCaret" />
+  <img src="https://img.shields.io/badge/imbalanced--learn-FF6F00?style=flat-square&logo=python&logoColor=white" alt="imbalanced-learn" />
+  <img src="https://img.shields.io/badge/ML%20Pipelines-102A43?style=flat-square&logo=scikit-learn&logoColor=white" alt="Machine Learning Pipelines" />
+</p>
+
+### Deep Learning and Computer Vision
+
+<p>
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
   <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/YOLO-111111?style=flat-square&logo=yolo&logoColor=white" alt="YOLO" />
+  <img src="https://img.shields.io/badge/ANN-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="Artificial Neural Networks" />
 </p>
 
-The repository also includes SciPy, Plotly, PyCaret, imbalanced-learn, computer-vision concepts, and YOLO-related learning topics.
+### MLOps and Deployment
+
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" alt="MLflow" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/DVC-13ADC7?style=flat-square&logo=dvc&logoColor=white" alt="DVC" />
+</p>
+
+### Big Data and Cloud
+
+<p>
+  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" alt="Apache Spark" />
+  <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black" alt="Hadoop" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Microsoft Azure" />
+  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud" />
+</p>
+
+### Generative AI, LLMs, and Agentic AI
+
+<p>
+  <img src="https://img.shields.io/badge/LLMs-412991?style=flat-square&logo=openai&logoColor=white" alt="Large Language Models" />
+  <img src="https://img.shields.io/badge/Generative%20AI-412991?style=flat-square&logo=openai&logoColor=white" alt="Generative AI" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+  <img src="https://img.shields.io/badge/RAG-102A43?style=flat-square&logo=databricks&logoColor=white" alt="Retrieval Augmented Generation" />
+  <img src="https://img.shields.io/badge/AI%20Agents-0E75B6?style=flat-square&logo=probot&logoColor=white" alt="AI Agents" />
+</p>
+
+Key concepts include statistics, probability, linear algebra, prompt engineering, embeddings, vector search, RAG, tool calling, agent workflows, model deployment, monitoring, and responsible AI.
 
 ## How to Use
 
@@ -77,14 +140,22 @@ The repository also includes SciPy, Plotly, PyCaret, imbalanced-learn, computer-
 
 4. Keep the notebook's dataset in the same assignment folder when running locally.
 
-## Learning Roadmap
+## Learning Path
 
-- Python programming and object-oriented programming
-- Data cleaning and exploratory data analysis
-- Regression and classification workflows
-- Imbalanced-data handling and hyperparameter tuning
-- Artificial neural networks and deep learning
-- Practical business and fraud-detection projects
+This repository follows a progressive AI and Data Science learning path:
+
+| Stage | Area | Main Focus |
+| --- | --- | --- |
+| 1 | Python Foundation | Python syntax, functions, OOP, data structures, and problem solving |
+| 2 | Data Analytics | Data cleaning, EDA, visualization, reporting, and business insights |
+| 3 | Statistics and Probability | Descriptive statistics, probability, distributions, sampling, and hypothesis testing |
+| 4 | Linear Algebra | Vectors, matrices, transformations, and mathematical foundations for ML |
+| 5 | Machine Learning | Regression, classification, feature engineering, model evaluation, and tuning |
+| 6 | Deep Learning | Neural networks, computer vision, NLP, and TensorFlow/Keras workflows |
+| 7 | MLOps | Reproducible pipelines, model versioning, deployment, monitoring, and automation |
+| 8 | Big Data and Cloud | Distributed data processing, scalable systems, and cloud-based AI workflows |
+| 9 | Generative AI (LLMs) | Transformers, prompt engineering, embeddings, RAG, and LLM applications |
+| 10 | Agentic AI | AI agents, tool use, workflows, planning, memory, and multi-agent systems |
 
 ## Repository Notes
 
