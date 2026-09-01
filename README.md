@@ -4,15 +4,12 @@
 
 ### Artificial Intelligence & Data Science Learning Portfolio
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-102A43?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-
 ![Python Foundation](https://img.shields.io/badge/Python%20Foundation-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Data Analytics](https://img.shields.io/badge/Data%20Analytics-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Statistics and Probability](https://img.shields.io/badge/Statistics%20%26%20Probability-4051B5?style=for-the-badge&logo=python&logoColor=white)
 ![Linear Algebra](https://img.shields.io/badge/Linear%20Algebra-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-102A43?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![MLOps](https://img.shields.io/badge/MLOps-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Big Data and Cloud](https://img.shields.io/badge/Big%20Data%20%26%20Cloud-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Generative AI](https://img.shields.io/badge/Generative%20AI%20(LLMs)-412991?style=for-the-badge&logo=openai&logoColor=white)
