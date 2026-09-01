@@ -140,9 +140,20 @@ Key concepts include statistics, probability, linear algebra, prompt engineering
 
 4. Keep the notebook's dataset in the same assignment folder when running locally.
 
-## Learning Path
+## Learning Portfolio
 
-This repository follows a progressive AI and Data Science learning path:
+This repository follows a progressive AI and Data Science curriculum:
+
+1. Python Foundation
+2. Data Analytics
+3. Statistics and Probability
+4. Linear Algebra
+5. Machine Learning
+6. Deep Learning
+7. MLOps
+8. Big Data and Cloud
+9. Generative AI (LLMs)
+10. Agentic AI
 
 | Stage | Area | Main Focus |
 | --- | --- | --- |
