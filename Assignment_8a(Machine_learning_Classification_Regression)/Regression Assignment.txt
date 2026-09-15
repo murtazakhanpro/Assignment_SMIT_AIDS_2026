@@ -1,0 +1,28 @@
+# Regression Assignment
+
+Dear Students,
+
+Aap sab ko **Regression Assignment** diya ja raha hai. Is assignment ka objective data preprocessing aur regression model develop karna hai.
+
+### Assignment Requirements
+
+* Dataset ko properly analyze karein.
+* Missing values ko handle karein (agar available hon).
+* Required encoding perform karein (agar zarurat ho).
+* Feature Scaling apply karein (agar required ho).
+* Different Regression Models apply karein aur unki performance compare karein.
+* MAE, MSE, RMSE aur R² Score calculate karein.
+* Best performing model select karein.
+* Hyperparameter Tuning karke model ki performance improve karne ki koshish karein.
+* Model ki accuracy/performance ko maximum possible level tak optimize karein.
+* Har step ki proper explanation aur code comments bhi include karein.
+
+### Submission
+
+Assignment complete karke **GitHub Repository Link** ya **Google Drive Link** submit karein.
+
+**Source Code, Jupyter Notebook (.ipynb), Dataset aur README file zaroor include karein.**
+
+### Submission Deadline
+
+**Last Date of Submission: 08-08-2026**

@@ -1,0 +1,10 @@
+# 📚 CNN Image Classification Assignments
+
+### Assignment 1: Gun vs No Gun
+
+*Type:* Binary Classification
+*Dataset:* [Gun Detection Dataset – Kaggle](https://www.kaggle.com/datasets/atulyakumar98/gundetection?utm_source=chatgpt.com)
+
+*Task:* CNN use karke images ko *Gun* aur *No Gun* classes mein classify karein.
+
+*Submission:* GitHub

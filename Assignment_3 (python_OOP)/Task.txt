@@ -1,0 +1,18 @@
+Title
+
+Python Object-Oriented Programming (OOPs)
+
+Due Date
+
+Jun 16, 2026, 11:59 PM
+Status
+
+approved
+Description
+
+Yeh assignment Python Object-Oriented Programming (OOPs) ke basic aur core concepts ko cover karne ke liye design kiya gaya hai. Is assignment ka maqsad students ki OOPs concepts par grip ko check aur majboot karna hai. Poore assignment mein mix aur normal level ke total 20 questions shamil hain, jo ke professional standards ke mutabik 4 main pillars mein divide kiye gaye hain:
+
+Section 1: Encapsulation (Q1 - Q5) – Private/protected variables, getter/setter methods, aur data privacy ke sawal.
+Section 2: Inheritance (Q6 - Q10) – Single, Multilevel, Multiple, aur Hierarchical inheritance ke sath super() constructor ka istemal.
+Section 3: Polymorphism (Q11 - Q15) – Method Overriding, Built-in Polymorphism, aur Operator/Method overloading ke concepts.
+Section 4: Abstraction (Q16 - Q20) – abc module ka use, Abstract classes, Abstract methods, aur Real-world scenarios.

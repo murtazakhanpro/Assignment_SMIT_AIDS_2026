@@ -1,0 +1,9 @@
+
+### Assignment 2: Animal Classification
+
+*Type:* Multi-Class Classification
+*Dataset:* [Animal Image Classification – 5 Species](https://www.kaggle.com/datasets/miadul/animal-image-classification-5-species?utm_source=chatgpt.com)
+
+*Task:* CNN use karke *5 animal classes* ko classify karein.
+
+*Submission:* GitHub Repository Lin
