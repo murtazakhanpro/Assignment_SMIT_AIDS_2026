@@ -30,7 +30,7 @@ Yahan assignments, practice notebooks, aur learning projects organized hain. Har
 | Foundations | Python programming, OOP, data structures, statistics, probability, and linear algebra |
 | Data | Cleaning, EDA, visualization, multi-table analysis, and business insights |
 | AI/ML | Regression, classification, feature engineering, imbalance handling, and model tuning |
-| Deep Learning | Neural networks, TensorFlow/Keras workflows, and fraud/performance prediction |
+| Deep Learning | Neural networks, CNNs, Computer Vision (binary & multi-class), and TensorFlow/Keras workflows |
 | Engineering | Reproducible notebooks, Git-based documentation, pipelines, deployment, and monitoring concepts |
 | Next Frontier | Big data, cloud, LLM applications, RAG, tool calling, and AI agent workflows |
 
@@ -63,13 +63,15 @@ Yahan assignments, practice notebooks, aur learning projects organized hain. Har
 | 5 | EDA: Loan, Hotel, and Adult Datasets | [Open README](./Assignment_5%28EDA%29/README.md) |
 | 6 | Customer, Product, and Engagement Analytics | [Open README](./Assignment_6%28NLP%29/README.md) |
 | 7A | Student Performance Regression | [Open README](./Assignment_7%20A%20%28machine_learning_regression_prediction%29/README.md) |
-| 7B | Housing Price Regression | [Open README](./Assignment_7%20B%20%28machine_learning_regression/README.md) |
+| 7B | Housing Price Regression | [Open README](./Assignment_7%20B%20%28machine_learning_regression%29/README.md) |
 | 8A | California Housing Regression | [Open README](./Assignment_8a%28Machine_learning_Classification_Regression%29/README.md) |
 | 8B | Heart Failure Classification | [Open README](./Assignment_8b%28Machine_learning_Classic_regression%29/README.md) |
 | 8C | Ten-Year CHD Risk Classification | [Open README](./Assignment_8C_machineLearning/README.md) |
 | 9 | Customer Fraud Detection and Model Comparison | [Open README](./Assignment_9_%28multiple%20ML%20model%29/README.md) |
 | 10A | Student Performance with Deep Learning | [Open README](./Assignment_10a%28deep_learning_student_performance%29/README.md) |
 | 10B | Credit Card Fraud Detection with ANN | [Open README](./Assignment_10b%28deep_learning%29_creditCard_fraud_ANN/README.md) |
+| 11A | Gun vs No Gun CNN Binary Classification | [Open README](./Assignment_11a%28DL_Gun%20vs%20No%20Gun%29/README.md) |
+| 11B | 5-Species Animal CNN Multi-Class Classification | [Open README](./Assignment_11b%28DL_Animal%20Classification%29/README.md) |
 
 ## Technology Stack
 
@@ -191,7 +193,7 @@ This repository follows a progressive AI and Data Science curriculum:
 | 3 | Statistics and Probability | Descriptive statistics, probability, distributions, sampling, and hypothesis testing |
 | 4 | Linear Algebra | Vectors, matrices, transformations, and mathematical foundations for ML |
 | 5 | Machine Learning | Regression, classification, feature engineering, model evaluation, and tuning |
-| 6 | Deep Learning | Neural networks, computer vision, NLP, and TensorFlow/Keras workflows |
+| 6 | Deep Learning | Neural networks, computer vision (CNNs), NLP, and TensorFlow/Keras workflows |
 | 7 | MLOps | Reproducible pipelines, model versioning, deployment, monitoring, and automation |
 | 8 | Big Data and Cloud | Distributed data processing, scalable systems, and cloud-based AI workflows |
 | 9 | Generative AI (LLMs) | Transformers, prompt engineering, embeddings, RAG, and LLM applications |
