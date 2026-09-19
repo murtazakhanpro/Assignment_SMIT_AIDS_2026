@@ -57,3 +57,5 @@ if uploaded_file is not None:
 
     st.success(f"Prediction: {predicted_class}")
     st.info(f"Confidence: {confidence:.2f}%")
+
+    # start with some new
