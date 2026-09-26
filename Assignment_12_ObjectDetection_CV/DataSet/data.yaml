@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Bike', 'Person_Walking', 'Rikshaw', 'bus', 'cars']
+
+roboflow:
+  workspace: murtaza-ali-khan
+  project: pakistani_traffic_detectioncount
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/murtaza-ali-khan/pakistani_traffic_detectioncount/dataset/2
