@@ -3,16 +3,15 @@ title: YOLO Vision Studio
 emoji: 🔎
 colorFrom: indigo
 colorTo: blue
-sdk: gradio
-sdk_version: 6.28.0
+sdk: docker
 python_version: 3.11
-app_file: app.py
+app_port: 7860
 short_description: CPU-powered detection, segmentation, pose, and OBB demos
 ---
 
 # YOLO Vision Studio
 
-A Gradio app for trying four trained Ultralytics YOLO models on images, live webcam frames, and videos. All inference runs on CPU.
+A Flask app for trying four trained Ultralytics YOLO models on images, live webcam frames, and videos. All inference runs on CPU.
 
 **Designed & created by Murtaza Ali**
 
@@ -21,9 +20,9 @@ A Gradio app for trying four trained Ultralytics YOLO models on images, live web
 
 ## How to use
 
-Choose a model from the dropdown at the top, then open the matching input tab. The app loads all four local model files at startup.
+Choose a model from the dropdown, then select a webcam, video, or image workflow.
 
-![Select a model and workflow](docs/images/01-choose-model.svg)
+![Select a model and input workflow](docs/images/01-choose-model.svg)
 
 | Model | Weight file |
 | --- | --- |
@@ -34,27 +33,29 @@ Choose a model from the dropdown at the top, then open the matching input tab. T
 
 The segmentation weight filename keeps the spelling of the supplied file. If you rename it, also change `MODEL_FILES` in `app.py`.
 
-### Image
+### Webcam
 
-Upload a still image and select **Run image inference**. The annotated image appears beside the input.
-
-### Live Webcam
-
-Open the **Live Webcam** tab and allow your browser to use the camera. Gradio streams webcam frames to the selected model and shows annotated frames. Camera access requires a secure browser context, such as the HTTPS Hugging Face Space page.
+Click **Use Web Cam** and allow camera access in the browser. The left panel shows your camera preview and the right panel shows predictions. Click the button again to stop. Camera access requires a secure browser context, such as the HTTPS Hugging Face Space URL.
 
 ![Allow the browser camera and view predictions](docs/images/02-webcam.svg)
 
+### Image
+
+Click **Upload Image**, choose an image, and wait for the annotated result.
+
 ### Video
 
-Upload a video and select **Process video**. Processing runs frame by frame; the result appears in the video player and as a downloadable file.
+Click **Upload Video**, choose a video, and wait for inference to finish. Then use **Download processed video**.
 
-![Upload and view image or video results](docs/images/03-upload-results.svg)
+![Upload an image or video and view results](docs/images/03-upload-results.svg)
 
-## Deploy to the Hugging Face Space
+Uploads are limited to 500 MB. Supported images: JPG, JPEG, PNG, BMP, WEBP, TIF, TIFF. Supported videos: MP4, AVI, MOV, MKV, WEBM, MPEG, MPG.
 
-The target Space is [Murtazakhanpro/Vision_Studio](https://huggingface.co/spaces/Murtazakhanpro/Vision_Studio). Upload or push the contents of this `Assignment_14` folder to the root of that Space repository. Keep `README.md`, `app.py`, `requirements.txt`, all four `.pt` files, and `docs/images/` in the repository. The README YAML config selects the Gradio SDK and `app.py` as the app entry point.
+## Deploy to Hugging Face Spaces
 
-The weights total about 167 MiB. Use Git LFS (the included `.gitattributes` tracks `.pt` files) or the Hugging Face web uploader for the model files. Allow the Space build to finish installing dependencies and loading all four weights before opening the app.
+The target Space is [Murtazakhanpro/Vision_Studio](https://huggingface.co/spaces/Murtazakhanpro/Vision_Studio). Choose the **Docker** SDK and upload the contents of this `Assignment_14` folder to the Space repository root. Keep `README.md`, `Dockerfile`, `app.py`, both requirements files, all four `.pt` files, and `docs/images/` in the repository. The README YAML selects Docker and port 7860.
+
+The four weights total about 167 MiB. Use Git LFS (the included `.gitattributes` tracks `.pt` files) or Hugging Face's web uploader for the weights. Wait for the Docker build and model loading to finish before opening the Space.
 
 ## Run locally
 
@@ -65,16 +66,23 @@ python -m pip install -r requirements-cpu.txt
 python app.py
 ```
 
-Open [http://localhost:7860](http://localhost:7860). The CPU build processes video more slowly than a GPU, and webcam frame rate depends on the CPU available to the Space. Uploaded files and generated outputs use temporary local storage.
+Open [http://localhost:7860](http://localhost:7860). To use the production Gunicorn server locally, run:
+
+```bash
+gunicorn --bind 0.0.0.0:7860 --workers 1 --threads 4 --timeout 0 app:app
+```
+
+The CPU build processes video more slowly than a GPU, and webcam frame rate depends on the available CPU. Uploads and processed videos use temporary container storage and may be cleared when the Space restarts.
 
 ## Files
 
-- `app.py` — Gradio interface and CPU inference functions.
-- `requirements.txt` — Gradio, Ultralytics, OpenCV, and CPU PyTorch dependencies.
-- `requirements-cpu.txt` — requirements entry point for local setup.
-- `object_detection.pt`, `segmentaion_model.pt`, `pose_model.pt`, `obb.pt` — model weights.
-- `docs/images/` — quick-start visuals.
+- `app.py` — Flask interface, browser webcam, and inference endpoints.
+- `Dockerfile` — Hugging Face Docker Space image and Gunicorn startup.
+- `requirements.txt` — application dependencies and CPU PyTorch wheel index.
+- `requirements-cpu.txt` — local/Docker requirements entry point.
+- `object_detection.pt`, `segmentaion_model.pt`, `pose_model.pt`, `obb.pt` — trained weights.
+- `docs/images/` — visual quick-start guides.
 
 ## License and model provenance
 
-Set a license for the Space only after confirming the license and redistribution terms for the application and all four model weight files. This project does not assert that the supplied weights are licensed for redistribution.
+Set a Space license only after confirming redistribution terms for the app and all four model weight files. This project does not assert that the supplied weights are licensed for redistribution.

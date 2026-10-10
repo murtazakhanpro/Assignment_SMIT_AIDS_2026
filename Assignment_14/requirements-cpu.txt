@@ -1,2 +1,2 @@
-# Install all application dependencies, including CPU-only PyTorch wheels.
+# CPU-only requirements for local installs and the Docker Space.
 -r requirements.txt
