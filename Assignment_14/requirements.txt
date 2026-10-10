@@ -1,0 +1,8 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+gradio==6.28.0
+ultralytics==8.4.153
+opencv-python-headless>=4.10,<6.0
+numpy>=1.26,<3.0
+torch
+torchvision
+imageio-ffmpeg>=0.5.1

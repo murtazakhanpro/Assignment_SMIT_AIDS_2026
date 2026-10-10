@@ -1,0 +1,2 @@
+# Install all application dependencies, including CPU-only PyTorch wheels.
+-r requirements.txt

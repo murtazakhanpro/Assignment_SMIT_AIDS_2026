@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Use the browser webcam</title><desc id="desc">Shows browser camera permission followed by a side-by-side webcam preview and YOLO predictions.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#172752"/><stop offset="1" stop-color="#090e1b"/></linearGradient></defs>
+  <rect width="1200" height="620" rx="28" fill="url(#bg)"/><text x="70" y="88" fill="#92a9ff" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="4">WEBCAM MODE</text>
+  <text x="70" y="145" fill="#f2f5ff" font-family="Arial,sans-serif" font-size="42" font-weight="700">2. Allow camera access</text>
+  <rect x="70" y="185" width="440" height="330" rx="20" fill="#121a2d" stroke="#334166" stroke-width="2"/>
+  <circle cx="290" cy="300" r="57" fill="#202e52" stroke="#788cff" stroke-width="3"/><path d="M266 300h48m-24-24v48" stroke="#aabaff" stroke-width="7" stroke-linecap="round"/>
+  <text x="290" y="395" text-anchor="middle" fill="#f1f4ff" font-family="Arial,sans-serif" font-size="24" font-weight="700">Click “Use Web Cam”</text>
+  <text x="290" y="432" text-anchor="middle" fill="#aeb9d3" font-family="Arial,sans-serif" font-size="18">Choose Allow in your browser prompt</text>
+  <path d="M535 350h98" stroke="#8fa4ff" stroke-width="5"/><path d="m619 333 20 17-20 17" fill="none" stroke="#8fa4ff" stroke-width="5"/>
+  <rect x="675" y="185" width="455" height="330" rx="20" fill="#121a2d" stroke="#334166" stroke-width="2"/>
+  <rect x="700" y="220" width="195" height="185" rx="12" fill="#090e1b" stroke="#47577e"/><circle cx="797" cy="282" r="35" fill="#34466e"/><path d="M747 372q50-75 100 0" fill="#34466e"/><text x="797" y="435" text-anchor="middle" fill="#dbe3ff" font-family="Arial,sans-serif" font-size="16">Camera preview</text>
+  <rect x="910" y="220" width="195" height="185" rx="12" fill="#090e1b" stroke="#47577e"/><circle cx="1006" cy="282" r="35" fill="#34466e"/><path d="M956 372q50-75 100 0" fill="#34466e"/><rect x="966" y="267" width="80" height="88" fill="none" stroke="#f36f75" stroke-width="3"/><text x="1007" y="435" text-anchor="middle" fill="#dbe3ff" font-family="Arial,sans-serif" font-size="16">Predictions</text>
+  <text x="70" y="564" fill="#b8c4df" font-family="Arial,sans-serif" font-size="18">Camera runs in your browser; frames are sent to the app for CPU inference.</text>
+</svg>
