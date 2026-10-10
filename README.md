@@ -72,6 +72,9 @@ Yahan assignments, practice notebooks, aur learning projects organized hain. Har
 | 10B | Credit Card Fraud Detection with ANN | [Open README](./Assignment_10b%28deep_learning%29_creditCard_fraud_ANN/README.md) |
 | 11A | Gun vs No Gun CNN Binary Classification | [Open README](./Assignment_11a%28DL_Gun%20vs%20No%20Gun%29/README.md) |
 | 11B | 5-Species Animal CNN Multi-Class Classification | [Open README](./Assignment_11b%28DL_Animal%20Classification%29/README.md) |
+| 12 | Pakistani Traffic Object Detection and Tracking | [Open README](./Assignment_12_ObjectDetection_CV/README.md) |
+| 13 | Focus and Slouch Webcam Monitor | [Open README](./Assignment_13/README.md) |
+| 14 | Computer Vision Model Artifact | [Open assignment folder](./Assignment_14/) |
 
 ## Technology Stack
 

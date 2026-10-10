@@ -12,3 +12,10 @@
 *.exe
 *.dll
 *.so
+
+# Local development environments and editor settings
+.conda/
+.venv/
+venv/
+.vscode/
+**/.ipynb_checkpoints/
